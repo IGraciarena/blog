@@ -13,12 +13,12 @@ const Footer = () => {
         </div>
           <form className='flex flex-col sm:flex-row'>
             <input
-              className='w-full p-2 mb-6 mt-6 mr-4 rounded-md  mb-2 font-jbmono'
+              className='w-full p-2 m-6 rounded-md font-jbmono'
               type='email'
               placeholder='Enter email'
             />
           </form>
-          <button className='p-2 mb-6 mt-6 bg-[#00B86E] font-jbmono '>Subscribe</button>
+          <button className='p-2 m-6 bg-[#00B86E] font-jbmono '>Subscribe</button>
       </div>
 
       <div className='flex flex-col max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center items-center'>

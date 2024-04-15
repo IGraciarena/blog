@@ -33,20 +33,24 @@
       "type": "richtext"
     },
     "authorImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "authorDescription": {
       "type": "string"
     },
     "authorName": {
       "type": "string"
+    },
+    "blogCreated": {
+      "type": "date"
     }
   }
 }
