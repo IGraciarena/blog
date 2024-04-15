@@ -1,14 +1,8 @@
-import Navbar from "./Navbar";
-import Blogs from "./Blogs";
-import Footer from "./Footer";
-import BlogContent from "./BlogContent";
+import AboutMe from './AboutMe';
+import BlogContent from './BlogContent';
+import Blogs from './Blogs';
+import Footer from './Footer';
+import Navbar from './Navbar';
 
+export { AboutMe, BlogContent, Blogs, Footer, Navbar };
 
-
-
-export {
-    Navbar,
-    Blogs,
-    Footer,
-    BlogContent
-}
